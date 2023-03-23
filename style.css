@@ -5,4 +5,19 @@
     left: 0;
     right: 0;
     width: 100%;
+    margin-top: 40px; /* This is the top white margin at the top of the web map*/
+}
+
+.map-overlay {
+    position: relative;
+    font: 14px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    background: rgba(242, 247, 242, 0.8);
+    top: 0;
+    left: 0;
+    width: 260px;
+    margin: 10px 0 0 10px;
+    padding: 10px;
+    /*around elements inside of overlay*/
+    overflow: visible;
+
 }
